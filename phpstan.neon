@@ -1,8 +1,13 @@
+includes:
+    - vendor/nunomaduro/larastan/extension.neon
+
 parameters:
     level: 10
+
     paths:
         - app
         - database
         - routes
+
     excludePaths:
         - database/migrations/*
